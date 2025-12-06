@@ -1,0 +1,60 @@
+.about {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(243, 178, 25);
+  display: flex;
+}
+
+.center-box {
+  width: 50%;
+  height: 100%;
+}
+
+.center-box > .bix {
+  width: 500px;
+  height: 600px;
+  /* background-color: blue; */
+  margin-top: 150px;
+  margin-left: 50px;
+  border-radius: 20px;
+  background-image: url("../Imgae/191a88002c39f3c3c8d5d66dbcd6ef83 (1).jpg");
+  background-size: cover;
+  box-shadow: rgba(39, 131, 237, 0.931) 0px 0px 0px 2px,
+    rgba(36, 130, 238, 0.954) 0px 4px 6px -1px,
+    rgba(58, 82, 237, 0.918) 0px 1px 0px inset;
+}
+
+.about > .kol {
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(194, 212, 29); */
+  text-align: center;
+  padding-top: 250px;
+}
+
+.about > .kol > h3 > p {
+  font-size: 100px;
+}
+
+.about > .kol > .go {
+  width: 100%;
+  height: 250px;
+  /* background-color: rgb(238, 246, 99); */
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  position: sticky;
+  gap: 10px;
+  margin-top: 20px;
+  /* top: 0; */
+}
+
+.about > .kol > .go > .kil {
+  width: 150px;
+  height: 50px;
+  background-color: #f2ff7f;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
